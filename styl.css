@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.hihi{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/back.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+    border-radius: 20px;
+    
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+
+.ins{
+    
+    width: 100%;
+    height: 600px;
+    background:transparent;
+    display: flex;
+    align-items: center;
+    
+}
+
+form{
+    background:transparent;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 25px;
+    width: 50%;
+    border-radius: 10px; 
+   
+}
+
+form h3{
+    font-size: 50px;
+    color: #fff;
+    margin: 0px auto 20px;
+}
+
+form input ,form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background:transparent;
+    font-size: 16px;
+    border-radius: 10px;
+    color: rgb(237, 237, 237);
+    
+    
+}
+
+form button{
+    background-color: red;
+    border-radius: 10px;
+    width: 150px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin: 10px auto 0;
+
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col{
+    flex-basis:60%;
+}
+
+h1{
+    color: #fff;
+    font-size: 85px;
+}
+
+p{
+    color: #fff;
+    font-size: 13px;
+    line-height: 15px;
+
+}
+
+a button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 25px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+
+}
+
+.card1{
+    background-image: url(images/im1.jfif);
+}
+.card2{
+    background-image: url(images/robejpg.jpg);
+}
+.card3{
+    background-image: url(images/robes.jpg);
+}
+.card4{
+    background-image: url(images/jeans.webp);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
